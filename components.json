@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "domain": "erosbarajas.com",
+  "pageId": "allPages",
+  "components": [
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "eventInstructions": "skipToMain:landing-main",
+      "config": {
+        "id": "skip-to-main",
+        "href": "#landing-main",
+        "text": "Saltar al contenido principal",
+        "classes": "ank-display-none ank-position-absolute ank-left-16px ank-top-16px ank-zIndex-10 ank-paddingInline-12px ank-paddingBlock-8px ank-bg-secondaryBgColor ank-color-titleColor ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "siteHeader",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "classes": "ank-position-sticky ank-top-0 ank-zIndex-1200 ank-width-100per ank-display-flex ank-flexDirection-column ank-alignItems-center ank-paddingInline-16px ank-paddingBlock-14px ank-bg-bgColorOPA__0_96 ank-borderBottom-1px ank-borderColor-secondaryBgColor ank-backdropFilter-blurSD8pxED",
+        "components": [
+          "headerInner",
+          "headerMobileMenuMount"
+        ]
+      }
+    },
+    {
+      "id": "headerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-alignItems-center ank-justifyContent-spaceBetween ank-gap-16px ank-gap-md-24px",
+        "components": [
+          "brandLink",
+          "headerDesktopCluster",
+          "headerMobileActions"
+        ]
+      }
+    },
+    {
+      "id": "brandLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:home",
+      "config": {
+        "id": "brand-link",
+        "href": "#home",
+        "text": "Eros Barajas | Conectando con el Ser",
+        "classes": "ank-color-titleColor ank-fontSize-1rem ank-fontSize-md-1_05rem ank-fontWeight-700 ank-textDecoration-none ank-letterSpacing-0_01rem"
+      }
+    },
+    {
+      "id": "headerDesktopCluster",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-none ank-display-md-flex ank-alignItems-center ank-gap-18px ank-marginInlineStart-auto",
+        "components": [
+          "headerNav",
+          "headerCtaButton"
+        ]
+      }
+    },
+    {
+      "id": "headerNav",
+      "type": "container",
+      "valueInstructions": "set:config.ariaLabel,i18n,ui.accessibility.primaryNavigation",
+      "config": {
+        "tag": "nav",
+        "ariaLabel": "",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-14px ank-gap-md-18px ank-alignItems-center",
+        "components": [
+          "navHomeLink",
+          "navBenefitsLink",
+          "navMethodsLink",
+          "navAboutLink",
+          "navFaqLink"
+        ]
+      }
+    },
+    {
+      "id": "navHomeLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:home",
+      "config": {
+        "id": "nav-home",
+        "href": "#home",
+        "text": "Inicio",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "navBenefitsLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:benefits-section",
+      "config": {
+        "id": "nav-benefits",
+        "href": "#benefits-section",
+        "text": "Beneficios",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "navMethodsLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:methods-section",
+      "config": {
+        "id": "nav-methods",
+        "href": "#methods-section",
+        "text": "Métodos",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "navAboutLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:about-section",
+      "config": {
+        "id": "nav-about",
+        "href": "#about-section",
+        "text": "Sobre Eros",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "navFaqLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:faq-section",
+      "config": {
+        "id": "nav-faq",
+        "href": "#faq-section",
+        "text": "Preguntas",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "headerCtaButton",
+      "type": "button",
+      "eventInstructions": "openWhatsApp:header_whatsapp_click,header_primary,header",
+      "meta_title": "header_whatsapp_click",
+      "config": {
+        "label": "Hablar por WhatsApp",
+        "classes": "primaryAction"
+      }
+    },
+    {
+      "id": "headerMobileActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-display-md-none ank-alignItems-center ank-gap-12px",
+        "components": [
+          "headerMobileNav"
+        ]
+      }
+    },
+    {
+      "id": "headerMobileMenuMount",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "id": "mobile-menu-anchor",
+        "classes": "ank-display-md-none ank-width-100per ank-maxWidth-1180px",
+        "components": []
+      }
+    },
+    {
+      "id": "headerMobileNav",
+      "type": "dropdown",
+      "condition": "all:navigation,exists",
+      "eventInstructions": "trackEvent:nav_click,navigation,event.eventData.label,href,event.eventData.value;navigationToSection:event.eventData.value",
+      "valueInstructions": "set:config.items,var,navigation;set:config.dropdownConfig.ariaLabel,i18n,ui.accessibility.mobileMenuAriaLabel",
+      "config": {
+        "items": [],
+        "dropdownConfig": {
+          "ariaLabel": "",
+          "buttonClasses": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-width-44px ank-height-44px ank-border-1px__solid__secondaryAccentColor ank-borderRadius-14px ank-bg-secondaryBgColor ank-color-titleColor ank-cursor-pointer ank-padding-0",
+          "itemLinkClasses": "ank-display-block ank-paddingInline-16px ank-paddingBlock-12px ank-borderRadius-16px ank-textDecoration-none ank-bg-secondaryBgColor ank-color-titleColor ank-fontWeight-700",
+          "menuContainerClasses": "ank-display-md-none ank-width-100per ank-marginTop-12px ank-paddingInline-16px ank-paddingTop-8px ank-paddingBottom-16px ank-bg-bgColor ank-borderTop-1px ank-borderColor-secondaryBgColor",
+          "menuNavClasses": "ank-width-100per ank-maxWidth-1180px ank-marginInline-auto",
+          "menuListClasses": "ank-listStyle-none ank-padding-0 ank-margin-0 ank-display-flex ank-flexDirection-column ank-gap-10px",
+          "renderMode": "inline",
+          "menuContainerId": "mobile-primary-navigation",
+          "inlinePortalTargetSelector": "#mobile-menu-anchor",
+          "closeOnSelect": true
+        },
+        "components": [
+          "mobileMenuIcon"
+        ]
+      }
+    },
+    {
+      "id": "mobileMenuIcon",
+      "type": "icon",
+      "valueInstructions": "set:config.ariaLabel,i18n,ui.accessibility.openMenu",
+      "config": {
+        "iconName": "menu",
+        "ariaLabel": "",
+        "classes": "ank-color-titleColor ank-fontSize-1_5rem"
+      }
+    },
+    {
+      "id": "landingPage",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "id": "landing-main",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-0 ank-bg-bgColor",
+        "components": [
+          "pageStack"
+        ]
+      }
+    },
+    {
+      "id": "siteFooter",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "classes": "ank-width-100per ank-paddingInline-16px ank-p-2rem ank-p-md-3rem ank-bg-secondaryBgColor",
+        "components": [
+          "footerInner"
+        ]
+      }
+    },
+    {
+      "id": "footerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "outlinePanel ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-alignItems-start ank-mx-auto",
+        "components": [
+          "footerBrand",
+          "footerCopy",
+          "footerMeta",
+          "footerSocialSection"
+        ]
+      }
+    },
+    {
+      "id": "footerBrand",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Eros Barajas | Conectando con el Ser",
+        "classes": "ank-color-titleColor ank-fontSize-1_1rem ank-fontWeight-800"
+      }
+    },
+    {
+      "id": "footerCopy",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Acompañamiento terapéutico y energético con una mirada integral para ayudarte a recuperar claridad, equilibrio y dirección.",
+        "classes": "ank-color-textColor ank-lineHeight-1_65 ank-maxWidth-52rem"
+      }
+    },
+    {
+      "id": "footerMeta",
+      "type": "text",
+      "config": {
+        "tag": "small",
+        "text": "Atención presencial en Ciudad de México y acompañamiento a distancia.",
+        "classes": "ank-color-textColor ank-opacity-0_76 ank-mb-1rem ank-d-block"
+      }
+    },
+    {
+      "id": "footerSocialSection",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-10px ank-gap-md-12px ank-alignItems-center",
+        "components": [
+          "footerInstagramLink",
+          "footerFacebookLink"
+        ]
+      }
+    },
+    {
+      "id": "footerInstagramLink",
+      "type": "link",
+      "config": {
+        "id": "footer-instagram-link",
+        "href": "https://www.instagram.com/erosbarajas.conectando/",
+        "text": "Instagram",
+        "ariaLabel": "Abrir el Instagram de Eros Barajas",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "components": [
+          "footerInstagramIcon"
+        ],
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-10px ank-paddingInline-16px ank-paddingBlock-10px ank-borderRadius-99rem ank-border-1px__solid__secondaryAccentColor ank-bg-secondaryBgColor ank-color-titleColor ank-fontWeight-700 ank-textDecoration-none ank-bgHover-bgColor ank-transition-all"
+      }
+    },
+    {
+      "id": "footerInstagramIcon",
+      "type": "icon",
+      "config": {
+        "iconName": "simple:instagram",
+        "ariaHidden": true,
+        "classes": "ank-width-1_1rem ank-height-1_1rem ank-color-titleColor ank-flexShrink-0"
+      }
+    },
+    {
+      "id": "footerFacebookLink",
+      "type": "link",
+      "config": {
+        "id": "footer-facebook-link",
+        "href": "https://www.facebook.com/erosbarajasYuen",
+        "text": "Facebook",
+        "ariaLabel": "Abrir el Facebook de Eros Barajas",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "components": [
+          "footerFacebookIcon"
+        ],
+        "classes": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-10px ank-paddingInline-16px ank-paddingBlock-10px ank-borderRadius-99rem ank-border-1px__solid__secondaryAccentColor ank-bg-secondaryBgColor ank-color-titleColor ank-fontWeight-700 ank-textDecoration-none ank-bgHover-bgColor ank-transition-all"
+      }
+    },
+    {
+      "id": "footerFacebookIcon",
+      "type": "icon",
+      "config": {
+        "iconName": "simple:facebook",
+        "ariaHidden": true,
+        "classes": "ank-width-1_1rem ank-height-1_1rem ank-color-titleColor ank-flexShrink-0"
+      }
+    }
+  ]
+}

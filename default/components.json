@@ -1,0 +1,1040 @@
+{
+  "version": 1,
+  "domain": "erosbarajas.com",
+  "pageId": "default",
+  "components": [
+    {
+      "id": "pageStack",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-display-flex ank-flexDirection-column ank-gap-0",
+        "components": [
+          "heroSection",
+          "benefitsSection",
+          "methodsSection",
+          "aboutSection",
+          "faqSection",
+          "finalCtaSection"
+        ]
+      }
+    },
+    {
+      "id": "heroSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "home",
+        "classes": "sectionBase ank-paddingTop-36px ank-paddingTop-md-52px",
+        "components": [
+          "heroContent"
+        ]
+      }
+    },
+    {
+      "id": "heroContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-24px ank-gap-md-36px ank-alignItems-center",
+        "components": [
+          "heroCopyColumn",
+          "heroVisualColumn"
+        ]
+      }
+    },
+    {
+      "id": "heroCopyColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-maxWidth-40rem",
+        "components": [
+          "heroBadge",
+          "heroTitle",
+          "heroLead",
+          "heroSupport",
+          "heroChips",
+          "heroActions"
+        ]
+      }
+    },
+    {
+      "id": "heroBadge",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-alignItems-start ank-gap-16px",
+        "components": [
+          "heroLogo",
+          "heroEyebrow"
+        ]
+      }
+    },
+    {
+      "id": "heroLogo",
+      "type": "media",
+      "valueInstructions": "set:config.src,var,heroAssets.logoUrl;set:config.alt,var,heroAssets.logoAlt",
+      "config": {
+        "id": "hero-logo",
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "classes": "ank-width-50per ank-height-50per ank-m-0__auto ank-display-block",
+        "width": 1080,
+        "height": 1080,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "sizes": "(max-width: 768px) 96px, 120px"
+      }
+    },
+    {
+      "id": "heroEyebrow",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.eyebrow",
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "sectionEyebrow"
+      }
+    },
+    {
+      "id": "heroTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.title",
+      "config": {
+        "tag": "h1",
+        "text": "",
+        "classes": "sectionTitle ank-maxWidth-14ch"
+      }
+    },
+    {
+      "id": "heroLead",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.lead",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle ank-maxWidth-50rem"
+      }
+    },
+    {
+      "id": "heroSupport",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.support",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "heroCaption ank-maxWidth-75per"
+      }
+    },
+    {
+      "id": "heroChips",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-16px ank-paddingTop-10px",
+        "components": [
+          "heroChipOne",
+          "heroChipTwo",
+          "heroChipThree"
+        ]
+      }
+    },
+    {
+      "id": "heroChipOne",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Sesiones personalizadas",
+        "classes": "chipText"
+      }
+    },
+    {
+      "id": "heroChipTwo",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Atención presencial y a distancia",
+        "classes": "chipText"
+      }
+    },
+    {
+      "id": "heroChipThree",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "WhatsApp para agendar fácil",
+        "classes": "chipText"
+      }
+    },
+    {
+      "id": "heroActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-paddingTop-10px",
+        "components": [
+          "heroPrimaryButton",
+          "heroSecondaryButton"
+        ]
+      }
+    },
+    {
+      "id": "heroPrimaryButton",
+      "type": "button",
+      "eventInstructions": "openWhatsApp:event.meta_title,hero_primary,hero",
+      "meta_title": "hero_primary_click",
+      "valueInstructions": "set:config.label,i18n,hero.primaryLabel",
+      "config": {
+        "label": "",
+        "classes": "primaryAction"
+      }
+    },
+    {
+      "id": "heroSecondaryButton",
+      "type": "button",
+      "eventInstructions": "trackEvent:event.meta_title,cta,hero_secondary,location,hero;navigationToSection:methods-section",
+      "meta_title": "hero_secondary_click",
+      "valueInstructions": "set:config.label,i18n,hero.secondaryLabel",
+      "config": {
+        "label": "",
+        "classes": "secondaryAction"
+      }
+    },
+    {
+      "id": "heroVisualColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-justifyContent-md-end",
+        "components": [
+          "heroPortraitCard"
+        ]
+      }
+    },
+    {
+      "id": "heroPortraitCard",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-28px ank-bg-secondaryBgColor ank-padding-24px ank-padding-md-36px ank-boxShadow-0__18px__48px__bgColor__OPA__0_18 ank-width-100per ank-maxWidth-460px ank-display-flex ank-flexDirection-column ank-gap-16px",
+        "components": [
+          "heroPortrait",
+          "heroPortraitCaption"
+        ]
+      }
+    },
+    {
+      "id": "heroPortrait",
+      "type": "media",
+      "valueInstructions": "set:config.src,var,heroAssets.heroPortraitUrl;set:config.alt,var,heroAssets.heroPortraitAlt",
+      "config": {
+        "id": "hero-portrait",
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "classes": "ank-width-100per ank-display-block ank-borderRadius-24px ank-bg-bgColor",
+        "width": 1080,
+        "height": 1920,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "sizes": "(max-width: 768px) 100vw, 460px"
+      }
+    },
+    {
+      "id": "heroPortraitCaption",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,hero.caption",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "heroCaption"
+      }
+    },
+    {
+      "id": "benefitsSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "benefits-section",
+        "classes": "sectionBase",
+        "components": [
+          "benefitsContent"
+        ]
+      }
+    },
+    {
+      "id": "benefitsContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-24px ank-gap-md-28px",
+        "components": [
+          "benefitsEyebrow",
+          "benefitsTitle",
+          "benefitsSubtitle",
+          "benefitsGrid"
+        ]
+      }
+    },
+    {
+      "id": "benefitsEyebrow",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,benefits.eyebrow",
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "sectionEyebrow"
+      }
+    },
+    {
+      "id": "benefitsTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,benefits.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "sectionTitle ank-maxWidth-75per"
+      }
+    },
+    {
+      "id": "benefitsSubtitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,benefits.subtitle",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle"
+      }
+    },
+    {
+      "id": "benefitsGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-16px ank-gap-md-20px",
+        "components": [
+          "benefitCardOne",
+          "benefitCardTwo",
+          "benefitCardThree",
+          "benefitCardFour"
+        ]
+      }
+    },
+    {
+      "id": "benefitCardOne",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "psychology",
+        "title": "Estrés emocional que ya se volvió parte del día",
+        "description": "Cuando sostienes demasiadas cosas al mismo tiempo, tu mente se acelera, tu cuerpo se tensa y la vida comienza a sentirse pesada.",
+        "benefits": [
+          "Más claridad para entender lo que te está drenando.",
+          "Un espacio para bajar el ruido interno.",
+          "Acompañamiento que va al origen, no solo al síntoma."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "benefitCardTwo",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "favorite",
+        "title": "Relaciones tensas y sensación de desconexión",
+        "description": "A veces el problema no es solo con los demás. También aparece una distancia contigo, con tu energía y con la forma en que te habitas.",
+        "benefits": [
+          "Reconocer patrones que se repiten.",
+          "Trabajar carga emocional acumulada.",
+          "Recuperar una sensación más amable de presencia."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "benefitCardThree",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "self_improvement",
+        "title": "Búsqueda espiritual sin una guía que aterrice",
+        "description": "Buscar respuestas también puede cansar cuando no encuentras un proceso claro, humano y útil para tu momento actual.",
+        "benefits": [
+          "Transformar la búsqueda en acciones concretas.",
+          "Ordenar lo emocional, mental y corporal.",
+          "Volver a sentir dirección interna."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "benefitCardFour",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "auto_awesome",
+        "title": "Procesos hechos para tu caso y no para una plantilla",
+        "description": "Aquí no se trabaja desde respuestas genéricas. Se trabaja desde lo que tú estás viviendo, con herramientas que se ajustan a tu necesidad real.",
+        "benefits": [
+          "Sesiones personalizadas.",
+          "Acompañamiento cálido y profesional.",
+          "Un camino con más sentido y menos ruido."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "methodsSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "methods-section",
+        "classes": "sectionBase ank-bg-secondaryBgColor",
+        "components": [
+          "methodsContent"
+        ]
+      }
+    },
+    {
+      "id": "methodsContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-24px ank-gap-md-28px",
+        "components": [
+          "methodsEyebrow",
+          "methodsTitle",
+          "methodsSubtitle",
+          "methodsGrid",
+          "methodsNote"
+        ]
+      }
+    },
+    {
+      "id": "methodsEyebrow",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,methods.eyebrow",
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "sectionEyebrow"
+      }
+    },
+    {
+      "id": "methodsTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,methods.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "sectionTitle ank-maxWidth-75per"
+      }
+    },
+    {
+      "id": "methodsSubtitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,methods.subtitle",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle"
+      }
+    },
+    {
+      "id": "methodsGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-16px ank-gap-md-20px",
+        "components": [
+          "methodCardOne",
+          "methodCardTwo",
+          "methodCardThree",
+          "methodCardFour",
+          "methodCardFive",
+          "methodCardSix"
+        ]
+      }
+    },
+    {
+      "id": "methodCardOne",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "auto_awesome",
+        "title": "Método Yuen",
+        "description": "Una herramienta enfocada en detectar y debilitar bloqueos que están afectando tu energía, percepción y respuesta frente a lo que estás viviendo.",
+        "benefits": [
+          "Ayuda a trabajar bloqueos sutiles.",
+          "Se integra bien con otros procesos.",
+          "Aporta ligereza y enfoque."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "methodCardTwo",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "spa",
+        "title": "Access Bars",
+        "description": "Una técnica suave que favorece descanso mental, liberación de sobrecarga y una sensación más amplia de apertura para vivir con menos tensión.",
+        "benefits": [
+          "Ideal para bajar saturación mental.",
+          "Aporta relajación profunda.",
+          "Favorece una sensación de mayor espacio interior."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "methodCardThree",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "favorite",
+        "title": "Biomagnetismo",
+        "description": "Se integra para apoyar procesos donde el cuerpo también necesita atención, buscando equilibrio desde una lectura más amplia del bienestar.",
+        "benefits": [
+          "Complementa el trabajo emocional y energético.",
+          "Ayuda a mirar el cuerpo como parte del proceso.",
+          "Puede integrarse de manera personalizada."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "methodCardFour",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "volunteer_activism",
+        "title": "Masaje terapéutico",
+        "description": "Cuando el cuerpo ya está pidiendo una pausa, esta herramienta ayuda a liberar carga, tensión y rigidez para que el proceso avance con mayor integración.",
+        "benefits": [
+          "Baja tensión corporal acumulada.",
+          "Apoya descanso y regulación.",
+          "Ayuda a sentir el cuerpo más disponible."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "methodCardFive",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "groups",
+        "title": "Acompañamiento tanatológico y emocional",
+        "description": "Para procesos de duelo, cierre, transición o reconfiguración personal, con una mirada humana y respetuosa de lo que estás viviendo.",
+        "benefits": [
+          "Espacio seguro para nombrar lo que duele.",
+          "Más claridad frente a cambios difíciles.",
+          "Contención con dirección."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "methodCardSix",
+      "type": "generic-card",
+      "config": {
+        "variant": "feature",
+        "icon": "self_improvement",
+        "title": "Integración holística",
+        "description": "La fortaleza del proceso está en integrar lo que necesitas en una sola lectura coherente, combinando herramientas según tu momento y objetivo.",
+        "benefits": [
+          "Mirada personalizada y no fragmentada.",
+          "Ajuste real al momento que estás viviendo.",
+          "Mayor coherencia entre cuerpo, mente y emoción."
+        ],
+        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
+        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
+        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
+        "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
+        "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
+        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
+      }
+    },
+    {
+      "id": "methodsNote",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,methods.note",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionNote"
+      }
+    },
+    {
+      "id": "aboutSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "about-section",
+        "classes": "sectionBase",
+        "components": [
+          "aboutContent"
+        ]
+      }
+    },
+    {
+      "id": "aboutContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-24px ank-gap-md-36px ank-alignItems-center",
+        "components": [
+          "aboutVisualColumn",
+          "aboutCopyColumn"
+        ]
+      }
+    },
+    {
+      "id": "aboutVisualColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-justifyContent-md-start",
+        "components": [
+          "aboutPortraitCard"
+        ]
+      }
+    },
+    {
+      "id": "aboutPortraitCard",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-26px ank-bg-bgColor ank-padding-22px ank-padding-md-28px ank-boxShadow-0__18px__40px__bgColor__OPA__0_12 ank-width-100per ank-maxWidth-440px ank-display-flex ank-flexDirection-column ank-gap-14px",
+        "components": [
+          "aboutPortrait",
+          "aboutPortraitNote"
+        ]
+      }
+    },
+    {
+      "id": "aboutPortrait",
+      "type": "media",
+      "valueInstructions": "set:config.src,var,heroAssets.aboutPortraitUrl;set:config.alt,var,heroAssets.aboutPortraitAlt",
+      "config": {
+        "id": "about-portrait",
+        "tag": "image",
+        "src": "",
+        "alt": "",
+        "classes": "ank-width-100per ank-display-block ank-borderRadius-22px ank-bg-secondaryBgColor",
+        "width": 1080,
+        "height": 1920,
+        "decoding": "async",
+        "loading": "lazy",
+        "fetchPriority": "low",
+        "sizes": "(max-width: 768px) 100vw, 440px"
+      }
+    },
+    {
+      "id": "aboutPortraitNote",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Procesos centrados en personas que buscan una transformación real y sostenible.",
+        "classes": "heroCaption"
+      }
+    },
+    {
+      "id": "aboutCopyColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-maxWidth-42rem",
+        "components": [
+          "aboutEyebrow",
+          "aboutTitle",
+          "aboutParagraphOne",
+          "aboutParagraphTwo",
+          "aboutCredentialsRow",
+          "aboutParagraphThree",
+          "aboutPrimaryButton"
+        ]
+      }
+    },
+    {
+      "id": "aboutEyebrow",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,about.eyebrow",
+      "config": {
+        "tag": "span",
+        "text": "",
+        "classes": "sectionEyebrow"
+      }
+    },
+    {
+      "id": "aboutTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,about.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "sectionTitle ank-maxWidth-75per"
+      }
+    },
+    {
+      "id": "aboutParagraphOne",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,about.p1",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle ank-maxWidth-50rem"
+      }
+    },
+    {
+      "id": "aboutParagraphTwo",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,about.p2",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "heroCaption ank-maxWidth-50rem"
+      }
+    },
+    {
+      "id": "aboutCredentialsRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-10px ank-paddingTop-6px ank-paddingBottom-6px",
+        "components": [
+          "aboutCredentialOne",
+          "aboutCredentialTwo",
+          "aboutCredentialThree",
+          "aboutCredentialFour"
+        ]
+      }
+    },
+    {
+      "id": "aboutCredentialOne",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Método Yuen",
+        "classes": "chipText"
+      }
+    },
+    {
+      "id": "aboutCredentialTwo",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Access Bars",
+        "classes": "chipText"
+      }
+    },
+    {
+      "id": "aboutCredentialThree",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Biomagnetismo y masaje",
+        "classes": "chipText"
+      }
+    },
+    {
+      "id": "aboutCredentialFour",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Acompañamiento emocional",
+        "classes": "chipText"
+      }
+    },
+    {
+      "id": "aboutParagraphThree",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,about.p3",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "heroCaption ank-maxWidth-50rem"
+      }
+    },
+    {
+      "id": "aboutPrimaryButton",
+      "type": "button",
+      "eventInstructions": "openWhatsApp:event.meta_title,about_primary,about",
+      "meta_title": "about_primary_click",
+      "valueInstructions": "set:config.label,i18n,about.ctaLabel",
+      "config": {
+        "label": "",
+        "classes": "primaryAction ank-width-fitContent ank-marginTop-8px"
+      }
+    },
+    {
+      "id": "faqSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "faq-section",
+        "classes": "sectionBase ank-bg-secondaryBgColor",
+        "components": [
+          "faqContent"
+        ]
+      }
+    },
+    {
+      "id": "faqContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-24px ank-gap-md-28px",
+        "components": [
+          "faqTitle",
+          "faqSubtitle",
+          "faqAccordion",
+          "faqActionRow"
+        ]
+      }
+    },
+    {
+      "id": "faqTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,faqSection.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "sectionTitle ank-maxWidth-15ch"
+      }
+    },
+    {
+      "id": "faqSubtitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,faqSection.subtitle",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle ank-maxWidth-75per"
+      }
+    },
+    {
+      "id": "faqAccordion",
+      "type": "accordion",
+      "eventInstructions": "trackEventWhen:event.eventData.expanded,true,faq_open,faq,event.eventData.id",
+      "config": {
+        "mode": "single",
+        "allowToggle": true,
+        "items": [],
+        "itemsSource": {
+          "source": "i18n",
+          "path": "faq"
+        },
+        "containerClasses": "ank-width-100per ank-display-flex ank-flexDirection-column ank-gap-12px",
+        "defaultItemContainerClasses": "ank-width-100per ank-borderRadius-20px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor ank-overflow-hidden",
+        "defaultItemContainerIsExpandedClasses": "ank-boxShadow-0__14px__30px__bgColor__OPA__0_16",
+        "defaultItemContainerIsNotExpandedClasses": "",
+        "defaultItemButtonConfig": {
+          "id": "faqToggleButton",
+          "label": "",
+          "icon": "expand_more",
+          "iconPosition": "after",
+          "classes": "ank-width-100per ank-display-flex ank-justifyContent-spaceBetween ank-alignItems-center ank-gap-12px ank-paddingInline-20px ank-paddingBlock-18px ank-bg-transparent ank-border-none ank-textAlign-left ank-fontWeight-800 ank-color-titleColor ank-cursor-pointer",
+          "iconClasses": "ank-fontSize-1_45rem ank-color-secondaryLinkColor ank-flexShrink-0 ank-transition-all"
+        },
+        "defaultItemButtonIsExpandedClasses": "",
+        "defaultItemButtonIsNotExpandedClasses": "",
+        "defaultItemPanelClasses": "ank-paddingInline-20px ank-paddingBlockEnd-18px ank-lineHeight-1_72 ank-opacity-0_88 ank-color-secondaryTitleColor",
+        "defaultItemIconIsExpandedClasses": "ank-transform-rotateZSD180degED",
+        "defaultItemIconIsNotExpandedClasses": ""
+      }
+    },
+    {
+      "id": "faqActionRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px",
+        "components": [
+          "faqFooterButton"
+        ]
+      }
+    },
+    {
+      "id": "faqFooterButton",
+      "type": "button",
+      "eventInstructions": "openFaqCtaWhatsApp",
+      "valueInstructions": "set:config.label,i18n,faqSection.footerButtonLabel",
+      "config": {
+        "label": "",
+        "classes": "secondaryAction ank-width-fitContent"
+      }
+    },
+    {
+      "id": "finalCtaSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "contact-section",
+        "classes": "sectionBase ank-paddingBottom-96px",
+        "components": [
+          "finalCtaContent"
+        ]
+      }
+    },
+    {
+      "id": "finalCtaContent",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "warmPanel ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-md-24px ank-alignItems-start",
+        "components": [
+          "finalCtaTitle",
+          "finalCtaSubtitle",
+          "finalCtaMeta",
+          "finalCtaButtons"
+        ]
+      }
+    },
+    {
+      "id": "finalCtaTitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,finalCta.title",
+      "config": {
+        "tag": "h2",
+        "text": "",
+        "classes": "sectionTitle"
+      }
+    },
+    {
+      "id": "finalCtaSubtitle",
+      "type": "text",
+      "valueInstructions": "set:config.text,i18n,finalCta.subtitle",
+      "config": {
+        "tag": "p",
+        "text": "",
+        "classes": "sectionSubtitle ank-maxWidth-75per"
+      }
+    },
+    {
+      "id": "finalCtaMeta",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Atención presencial en Ciudad de México y acompañamiento a distancia para Latinoamérica.",
+        "classes": "heroCaption"
+      }
+    },
+    {
+      "id": "finalCtaButtons",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-paddingTop-6px",
+        "components": [
+          "finalCtaPrimaryButton",
+          "finalCtaSecondaryButton"
+        ]
+      }
+    },
+    {
+      "id": "finalCtaPrimaryButton",
+      "type": "button",
+      "eventInstructions": "openFinalCtaWhatsApp:event.meta_title,primary",
+      "meta_title": "final_cta_primary_click",
+      "valueInstructions": "set:config.label,i18n,finalCta.primaryLabel",
+      "config": {
+        "label": "",
+        "classes": "primaryAction"
+      }
+    },
+    {
+      "id": "finalCtaSecondaryButton",
+      "type": "button",
+      "eventInstructions": "trackEvent:event.meta_title,cta,final_secondary,location,final;navigationToSection:faq-section",
+      "meta_title": "final_cta_secondary_click",
+      "valueInstructions": "set:config.label,i18n,finalCta.secondaryLabel",
+      "config": {
+        "label": "",
+        "classes": "secondaryAction"
+      }
+    }
+  ]
+}

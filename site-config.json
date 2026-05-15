@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "domain": "erosbarajas.com",
+  "aliases": ["erosbarajas.zoolandingpage.com.mx"],
+  "defaultPageId": "default",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "default",
+      "label": "Inicio"
+    }
+  ],
+  "site": {
+    "theme": {
+      "defaultMode": "light",
+      "palettes": {
+        "light": {
+          "bgColor": "#f7f1ea",
+          "textColor": "#2f241d",
+          "titleColor": "#201712",
+          "linkColor": "#d85f1f",
+          "accentColor": "#ef7a2d",
+          "secondaryBgColor": "#efe1d2",
+          "secondaryTextColor": "#513c2e",
+          "secondaryTitleColor": "#3b2a1f",
+          "secondaryLinkColor": "#b94c14",
+          "secondaryAccentColor": "#f1b15f",
+          "successColor": "#2f8f57",
+          "onSuccessColor": "#f4fff8",
+          "errorColor": "#c63f3f",
+          "onErrorColor": "#fff3f3",
+          "warningColor": "#e0a126",
+          "onWarningColor": "#3a2400",
+          "infoColor": "#3b82f6",
+          "onInfoColor": "#eff6ff"
+        },
+        "dark": {
+          "bgColor": "#1e1713",
+          "textColor": "#f7ede6",
+          "titleColor": "#fff7f2",
+          "linkColor": "#ffb15c",
+          "accentColor": "#f08a3a",
+          "secondaryBgColor": "#2a211c",
+          "secondaryTextColor": "#e8d6c8",
+          "secondaryTitleColor": "#f6e4d3",
+          "secondaryLinkColor": "#ffba73",
+          "secondaryAccentColor": "#ffd28d",
+          "successColor": "#4cc778",
+          "onSuccessColor": "#082312",
+          "errorColor": "#ff7d7d",
+          "onErrorColor": "#2d0808",
+          "warningColor": "#f0bb59",
+          "onWarningColor": "#2d1a00",
+          "infoColor": "#7cb5ff",
+          "onInfoColor": "#05162d"
+        }
+      }
+    },
+    "appIdentity": {
+      "identifier": "erosbarajascom",
+      "name": "Eros Barajas",
+      "version": "1.0.0",
+      "description": "Landing page draft for Eros Barajas, Conectando con el Ser."
+    },
+    "seo": {
+      "siteName": "Eros Barajas",
+      "title": "Eros Barajas | Conectando con el Ser",
+      "description": "Acompañamiento integral para sanar bloqueos emocionales y recuperar claridad desde una mirada terapéutica y energética.",
+      "canonicalOrigin": "https://erosbarajas.com",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/branding/logo.png",
+      "openGraph": {
+        "type": "website",
+        "site_name": "Eros Barajas"
+      },
+      "twitter": {
+        "card": "summary_large_image"
+      },
+      "keywords": [
+        "Eros Barajas",
+        "sanacion holistica",
+        "terapia energetica",
+        "metodo yuen",
+        "bienestar integral",
+        "CDMX",
+        "LATAM"
+      ],
+      "robots": "index,follow,max-image-preview:large"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "ui": {
+      "modals": {
+        "_default": {
+          "size": "sm",
+          "variant": "dialog",
+          "closeOnBackdrop": true,
+          "showCloseButton": true,
+          "showAccentBar": true,
+          "accentColor": "secondaryAccentColor",
+          "containerClasses": "ank-position-fixed ank-inset-0 ank-display-flex ank-pointerEvents-none ank-zIndex-1000",
+          "containerDialogClasses": "ank-alignItems-center ank-justifyContent-center",
+          "containerSheetClasses": "ank-alignItems-flexEnd ank-justifyContent-center",
+          "panelClasses": "modal-panel ank-pointerEvents-auto ank-display-flex ank-flexDirection-column ank-minWidth-280px ank-maxHeight-80vh ank-overflow-auto ank-p-1_25rem ank-bg-secondaryBgColor ank-color-textColor ank-border-1px ank-borderColor-border ank-boxShadow-0__0_5rem__2rem__MIN0_25rem__bgColor__OPA__0_35",
+          "panelDialogClasses": "ank-position-absolute ank-top-50per ank-left-50per ank-transform-translateSDMIN50perCOM__MIN50perED ank-borderRadius-0_75rem",
+          "panelSheetClasses": "ank-position-relative ank-width-100per ank-borderRadius-1rem__1rem__0__0 ank-pb-1_5rem",
+          "panelMotionClasses": "modal-anim-scaleIn",
+          "panelSMClasses": "ank-width-clampSD300px__COM__25vw__COM__320pxED",
+          "panelMDClasses": "ank-width-clampSD300px__COM__50vw__COM__480pxED",
+          "panelLGClasses": "ank-width-clampSD300px__COM__75vw__COM__720pxED",
+          "accentBarClasses": "ank-position-absolute ank-top-0 ank-left-0 ank-right-0 ank-height-4px ank-borderRadius-0_75rem__0_75rem__0__0",
+          "closeButtonClasses": "modal-close ank-bg-transparent ank-border-0 ank-color-inherit ank-fontSize-1_25rem ank-cursor-pointer ank-position-absolute ank-top-0_5rem ank-right-0_5rem"
+        }
+      },
+      "toast": {
+        "hostClasses": "ank-position-fixed ank-display-flex ank-flexDirection-column ank-gap-0_5rem ank-zIndex-1000 ank-pointerEvents-none",
+        "hostTopClasses": "ank-top-1rem",
+        "hostBottomClasses": "ank-bottom-1rem",
+        "hostLeftClasses": "ank-left-1rem",
+        "hostRightClasses": "ank-right-1rem",
+        "hostCenterClasses": "ank-left-50per ank-transform-translateXSDMIN50perED",
+        "itemClasses": "ank-position-relative ank-display-flex ank-alignItems-stretch ank-gap-0_75rem ank-p-1rem ank-borderRadius-0_75rem ank-boxShadow-lg ank-border-1 ank-maxWidth-24rem ank-minWidth-20rem ank-pointerEvents-auto ank-overflow-hidden ank-backdropFilter-blurSD0_5remED ank-transformOrigin-center__bottom ank-transition-all ank-td-200ms",
+        "hoveredItemClasses": "ank-transform-scaleSD1_02ED",
+        "levelSuccessClasses": "ank-bg-successColorOPA__0_78 ank-color-onSuccessColor ank-borderColor-successColorOPA__0_34",
+        "levelErrorClasses": "ank-bg-errorColorOPA__0_78 ank-color-onErrorColor ank-borderColor-errorColorOPA__0_34",
+        "levelWarningClasses": "ank-bg-warningColorOPA__0_78 ank-color-onWarningColor ank-borderColor-warningColorOPA__0_34",
+        "levelInfoClasses": "ank-bg-infoColorOPA__0_78 ank-color-onInfoColor ank-borderColor-infoColorOPA__0_34",
+        "progressClasses": "toast-progress ank-position-absolute ank-bottom-0 ank-left-0 ank-right-0 ank-height-0_125rem ank-borderRadius-0_125rem ank-overflow-hidden",
+        "progressBarClasses": "ank-height-100per",
+        "progressBarSurfaceClasses": "ank-bg-bgColorOPA__0_58",
+        "iconSurfaceClasses": "ank-bg-bgColorOPA__0_22 ank-color-inherit",
+        "iconContainerClasses": "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0 ank-width-1_5rem ank-height-1_5rem ank-borderRadius-50per ank-fontSize-1rem",
+        "iconErrorClasses": "toast-icon-error-anim",
+        "iconWarningClasses": "toast-icon-warning-anim",
+        "contentClasses": "toast-content ank-display-flex ank-flexDirection-column ank-gap-0_25rem ank-flex-1 ank-minWidth-0",
+        "titleClasses": "toast-title ank-fontSize-0_875rem ank-fontWeight-600 ank-lineHeight-1_2",
+        "textClasses": "toast-text ank-fontSize-0_875rem ank-lineHeight-1_4",
+        "actionsClasses": "toast-actions ank-display-flex ank-gap-0_5rem ank-mt-0_5rem",
+        "actionButtonClasses": "ank-fontSize-0_75rem ank-px-0_75rem ank-py-0_25rem ank-borderRadius-0_375rem ank-cursor-pointer ank-fontWeight-500 ank-transition-all ank-td-200ms",
+        "actionPrimaryClasses": "ank-border-0 ank-bg-bgColorOPA__0_92 ank-color-titleColor ank-bgHover-bgColor",
+        "actionSecondaryClasses": "ank-border-1px ank-borderColor-bgColorOPA__0_32 ank-bg-bgColorOPA__0_12 ank-color-inherit ank-bgHover-bgColorOPA__0_2",
+        "dismissButtonClasses": "toast-dismiss ank-display-flex ank-alignItems-center ank-justifyContent-center ank-flexShrink-0 ank-width-1_5rem ank-height-1_5rem ank-bgcl-transparent ank-border-0 ank-borderRadius-50per ank-cursor-pointer ank-fontSize-1rem ank-transition-all ank-color-textHover-primary ank-bgclHover-surface-secondary"
+      }
+    }
+  },
+  "runtime": {
+    "localStorage": {
+      "theme": "eros-barajas-theme",
+      "language": "eros-barajas-language",
+      "userPreferences": "eros-barajas-preferences",
+      "id": "eros-barajas-id",
+      "sessionId": "eros-barajas-session-id",
+      "allowAnalytics": "eros-barajas-allow-analytics",
+      "analyticsConsentSnooze": "eros-barajas-allow-analytics-snooze",
+      "pageViewCount": "eros-barajas-page-view-count"
+    },
+    "features": {
+      "debugMode": false
+    },
+    "analytics": {
+      "enabled": false,
+      "consentUI": "none",
+      "consentSnoozeSeconds": 30,
+      "track": [],
+      "events": {
+        "page_view": "page_view",
+        "nav_click": "nav_click",
+        "cta_click": "cta_click",
+        "whatsapp_click": "whatsapp_click",
+        "faq_open": "faq_open",
+        "section_view": "section_view"
+      },
+      "categories": {
+        "navigation": "navigation",
+        "cta": "cta",
+        "faq": "faq",
+        "engagement": "engagement"
+      }
+    }
+  }
+}

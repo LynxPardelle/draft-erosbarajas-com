@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "erosbarajas.com",
+  "lang": "es",
+  "dictionary": {
+    "hero": {
+      "eyebrow": "Sanación integral de cuerpo, mente y espíritu",
+      "title": "Recupera claridad, equilibrio y dirección desde un acompañamiento hecho a tu medida.",
+      "lead": "Eros Barajas integra herramientas terapéuticas y energéticas para trabajar bloqueos emocionales, estrés acumulado y procesos personales que hoy te están quitando paz.",
+      "support": "Si llevas tiempo buscando una salida real, este espacio está pensado para ayudarte a volver a ti con más calma, consciencia y acción.",
+      "primaryLabel": "Quiero hablar por WhatsApp",
+      "secondaryLabel": "Conoce el enfoque",
+      "caption": "Atención presencial en Ciudad de México y acompañamiento a distancia para personas que necesitan apoyo real, no fórmulas genéricas."
+    },
+    "benefits": {
+      "eyebrow": "Cuando algo interno pide atención",
+      "title": "No siempre necesitas más información. A veces necesitas un proceso que te ayude a ordenar lo que hoy te pesa.",
+      "subtitle": "Este acompañamiento está pensado para personas que sienten desgaste emocional, tensión en sus relaciones, confusión interior o una sensación constante de desconexión consigo mismas."
+    },
+    "methods": {
+      "eyebrow": "Herramientas y métodos",
+      "title": "Cada sesión se adapta a tu caso. No se trata de aplicar todo, sino lo que puede ayudarte hoy.",
+      "subtitle": "El trabajo integra técnicas terapéuticas y energéticas que permiten abordar lo emocional, mental y corporal desde una visión más completa.",
+      "note": "Si no sabes qué método necesitas, no pasa nada. La conversación inicial sirve precisamente para entender tu caso y proponerte el mejor camino."
+    },
+    "about": {
+      "eyebrow": "Sobre Eros",
+      "title": "Una presencia cercana, profesional y enfocada en procesos de transformación con sentido.",
+      "p1": "Eros Barajas acompaña a personas que están atravesando momentos de desgaste, búsqueda o cambio. Su enfoque no busca impresionar con términos complejos, sino ayudarte a identificar qué está moviéndose en tu vida y trabajar eso con claridad.",
+      "p2": "Integra herramientas como Método Yuen, Access Bars, biomagnetismo, masaje terapéutico y otras miradas complementarias para construir sesiones profundamente personalizadas.",
+      "p3": "El objetivo no es que dependas del proceso, sino que recuperes presencia, dirección y una relación más consciente contigo mismo.",
+      "ctaLabel": "Agenda una conversación inicial"
+    },
+    "faqSection": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Si es tu primera vez acercándote a este tipo de acompañamiento, aquí tienes respuestas claras para ayudarte a decidir con calma.",
+      "footerButtonLabel": "Quiero orientación por WhatsApp"
+    },
+    "finalCta": {
+      "title": "Si sientes que ya es momento de atender lo que vienes cargando, da el siguiente paso con una conversación directa.",
+      "subtitle": "Escríbeme por WhatsApp y cuéntame brevemente qué estás viviendo. A partir de ahí podemos revisar cómo ayudarte desde un proceso serio, cálido y personalizado.",
+      "primaryLabel": "Escribir por WhatsApp",
+      "secondaryLabel": "Ver preguntas frecuentes"
+    },
+    "footer": {
+      "social": {
+        "instagram": {
+          "label": "Instagram",
+          "ariaLabel": "Abrir el Instagram de Eros Barajas"
+        },
+        "facebook": {
+          "label": "Facebook",
+          "ariaLabel": "Abrir el Facebook de Eros Barajas"
+        }
+      }
+    },
+    "ui": {
+      "accessibility": {
+        "primaryNavigation": "Navegacion principal",
+        "mobileMenuAriaLabel": "Menu de navegacion",
+        "openMenu": "Abrir menu"
+      },
+      "contact": {
+        "whatsappMessage": "Hola Eros, vi tu landing page y quiero información sobre una sesión personalizada.",
+        "faqMessage": "Hola Eros, vi la sección de preguntas frecuentes y quiero saber qué tipo de acompañamiento podría ser mejor para mi caso.",
+        "finalCtaMessage": "Hola Eros, quiero dar el siguiente paso y conocer cómo podríamos trabajar mi proceso."
+      }
+    },
+    "faq": [
+      {
+        "id": "faq-1",
+        "title": "¿Cómo sé si este acompañamiento es para mí?",
+        "content": "Si estás viviendo estrés constante, bloqueo emocional, relaciones tensas, sensación de desconexión o una búsqueda interna que no logras aterrizar, probablemente este espacio puede ayudarte. La primera conversación sirve para entender tu situación y ver si hay buen encuadre para trabajar juntos."
+      },
+      {
+        "id": "faq-2",
+        "title": "¿Necesito conocer los métodos antes de agendar?",
+        "content": "No. No necesitas llegar sabiendo si requieres Método Yuen, Access Bars, biomagnetismo u otra herramienta. La propuesta parte de tu situación actual y se construye con base en lo que más puede apoyarte en este momento."
+      },
+      {
+        "id": "faq-3",
+        "title": "¿Las sesiones son presenciales o también a distancia?",
+        "content": "Hay atención presencial en Ciudad de México y también acompañamiento a distancia, dependiendo del tipo de proceso y de tus posibilidades. Esto se revisa contigo al momento de conversar por WhatsApp."
+      },
+      {
+        "id": "faq-4",
+        "title": "¿Qué puedo esperar de una primera sesión?",
+        "content": "Puedes esperar escucha, claridad y un proceso personalizado. La intención no es darte respuestas genéricas, sino identificar contigo lo que hoy está generando más ruido y comenzar a trabajar desde ahí con una estrategia adecuada para tu caso."
+      },
+      {
+        "id": "faq-5",
+        "title": "¿También manejas clases introductorias?",
+        "content": "Sí, las clases introductorias forman parte de la propuesta, pero el foco principal de esta página son las sesiones personalizadas. Si te interesa empezar por una clase, puedes mencionarlo directamente en tu mensaje de WhatsApp."
+      }
+    ]
+  }
+}

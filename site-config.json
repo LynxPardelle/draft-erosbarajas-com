@@ -1,7 +1,9 @@
 {
   "version": 1,
   "domain": "erosbarajas.com",
-  "aliases": ["erosbarajas.zoolandingpage.com.mx"],
+  "aliases": [
+    "erosbarajas.zoolandingpage.com.mx"
+  ],
   "defaultPageId": "default",
   "routes": [
     {
@@ -184,6 +186,14 @@
         "faq": "faq",
         "engagement": "engagement"
       }
+    }
+  },
+  "environments": {
+    "test": {
+      "aliases": [
+        "test.erosbarajas.com",
+        "test.erosbarajas.zoolandingpage.com.mx"
+      ]
     }
   }
 }

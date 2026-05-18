@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "domain": "erosbarajas.com",
+  "pageId": "not-found",
+  "variables": {
+    "brand": {
+      "displayName": "Eros Barajas",
+      "tagline": "Conectando con el Ser"
+    },
+    "navigation": [],
+    "heroAssets": {
+      "logoUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo.png",
+      "logoAlt": "Logotipo de Eros Barajas Conectando con el Ser",
+      "heroPortraitUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait.jpg",
+      "heroPortraitAlt": "Eros Barajas con saco gris y brazos cruzados",
+      "aboutPortraitUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/about-portrait.jpg",
+      "aboutPortraitAlt": "Eros Barajas con camisa azul y brazos cruzados"
+    },
+    "socialLinks": [
+      {
+        "id": "instagram",
+        "url": "https://www.instagram.com/erosbarajas.conectando/",
+        "label": "⌾ Instagram",
+        "ariaLabelKey": "footer.social.instagram.ariaLabel",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "id": "facebook",
+        "url": "https://www.facebook.com/erosbarajasYuen",
+        "label": "ⓕ Facebook",
+        "ariaLabelKey": "footer.social.facebook.ariaLabel",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "ui": {
+      "loadingCurtain": {
+        "title": "Eros Barajas",
+        "subtitle": "Preparando un espacio con calma",
+        "logoUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo.png",
+        "background": "#f8efe4",
+        "foreground": "#1f130d",
+        "accent": "#f97316",
+        "exitDurationMs": 420
+      },
+      "contact": {
+        "whatsappPhone": "+525562579516",
+        "whatsappMessageKey": "ui.contact.whatsappMessage",
+        "faqMessageKey": "ui.contact.faqMessage",
+        "finalCtaMessageKey": "ui.contact.finalCtaMessage"
+      }
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        },
+        {
+          "code": "en",
+          "label": "EN"
+        }
+      ]
+    }
+  }
+}

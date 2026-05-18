@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "pageId": "not-found",
+  "domain": "erosbarajas.com",
+  "rootIds": [
+    "skipToMainLink",
+    "notFoundPage"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "routePurpose": "not-found-recovery"
+  },
+  "seo": {
+    "title": {
+      "es": "Página no encontrada | Eros Barajas",
+      "en": "Page not found | Eros Barajas",
+      "fr": "Page introuvable | Eros Barajas",
+      "de": "Seite nicht gefunden | Eros Barajas"
+    },
+    "description": {
+      "es": "La página solicitada no está disponible en Eros Barajas. Vuelve al inicio o usa una ruta publicada para continuar.",
+      "en": "The requested page is not available on Eros Barajas. Return home or use a published route to continue.",
+      "fr": "La page demandée n'est pas disponible sur Eros Barajas. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+      "de": "Die angeforderte Seite ist auf Eros Barajas nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+    },
+    "canonical": "https://erosbarajas.com/404",
+    "robots": "noindex,follow",
+    "keywords": {
+      "es": [
+        "pagina no encontrada",
+        "Eros Barajas"
+      ],
+      "en": [
+        "page not found",
+        "Eros Barajas"
+      ],
+      "fr": [
+        "page introuvable",
+        "Eros Barajas"
+      ],
+      "de": [
+        "seite nicht gefunden",
+        "Eros Barajas"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Página no encontrada | Eros Barajas",
+        "en": "Page not found | Eros Barajas",
+        "fr": "Page introuvable | Eros Barajas",
+        "de": "Seite nicht gefunden | Eros Barajas"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en Eros Barajas. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Eros Barajas. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Eros Barajas. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Eros Barajas nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/branding/logo.png",
+      "url": "https://erosbarajas.com/404",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Página no encontrada | Eros Barajas",
+        "en": "Page not found | Eros Barajas",
+        "fr": "Page introuvable | Eros Barajas",
+        "de": "Seite nicht gefunden | Eros Barajas"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en Eros Barajas. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on Eros Barajas. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur Eros Barajas. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf Eros Barajas nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/branding/logo.png",
+      "card": "summary_large_image"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Página no encontrada | Eros Barajas",
+        "description": "La página solicitada no está disponible en Eros Barajas. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "url": "https://erosbarajas.com/404",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "rutas"
+    ],
+    "scrollMilestones": [
+      50,
+      100
+    ]
+  }
+}

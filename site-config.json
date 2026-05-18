@@ -10,6 +10,11 @@
       "path": "/",
       "pageId": "default",
       "label": "Inicio"
+    },
+    {
+      "path": "/404",
+      "pageId": "not-found",
+      "label": "Página no encontrada"
     }
   ],
   "site": {
@@ -195,5 +200,11 @@
         "test.erosbarajas.zoolandingpage.com.mx"
       ]
     }
+  },
+  "notFoundPageId": "not-found",
+  "sitemap": {
+    "excludePaths": [
+      "/404"
+    ]
   }
 }

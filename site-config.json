@@ -20,44 +20,44 @@
       "defaultMode": "light",
       "palettes": {
         "light": {
-          "bgColor": "#f7f1ea",
-          "textColor": "#2f241d",
-          "titleColor": "#201712",
-          "linkColor": "#d85f1f",
-          "accentColor": "#ef7a2d",
-          "secondaryBgColor": "#efe1d2",
-          "secondaryTextColor": "#513c2e",
-          "secondaryTitleColor": "#3b2a1f",
-          "secondaryLinkColor": "#b94c14",
-          "secondaryAccentColor": "#f1b15f",
-          "successColor": "#2f8f57",
+          "bgColor": "#f8faf7",
+          "textColor": "#1f2a24",
+          "titleColor": "#111c18",
+          "linkColor": "#0f766e",
+          "accentColor": "#0f766e",
+          "secondaryBgColor": "#e8f0ea",
+          "secondaryTextColor": "#34443b",
+          "secondaryTitleColor": "#20322b",
+          "secondaryLinkColor": "#9a6632",
+          "secondaryAccentColor": "#c99a5b",
+          "successColor": "#168257",
           "onSuccessColor": "#f4fff8",
-          "errorColor": "#c63f3f",
+          "errorColor": "#b94040",
           "onErrorColor": "#fff3f3",
-          "warningColor": "#e0a126",
-          "onWarningColor": "#3a2400",
-          "infoColor": "#3b82f6",
+          "warningColor": "#c98a24",
+          "onWarningColor": "#2f1e00",
+          "infoColor": "#2563eb",
           "onInfoColor": "#eff6ff"
         },
         "dark": {
-          "bgColor": "#1e1713",
-          "textColor": "#f7ede6",
-          "titleColor": "#fff7f2",
-          "linkColor": "#ffb15c",
-          "accentColor": "#f08a3a",
-          "secondaryBgColor": "#2a211c",
-          "secondaryTextColor": "#e8d6c8",
-          "secondaryTitleColor": "#f6e4d3",
-          "secondaryLinkColor": "#ffba73",
-          "secondaryAccentColor": "#ffd28d",
-          "successColor": "#4cc778",
-          "onSuccessColor": "#082312",
-          "errorColor": "#ff7d7d",
+          "bgColor": "#101816",
+          "textColor": "#edf6f0",
+          "titleColor": "#f8fff9",
+          "linkColor": "#5eead4",
+          "accentColor": "#2dd4bf",
+          "secondaryBgColor": "#18231f",
+          "secondaryTextColor": "#c9d8cf",
+          "secondaryTitleColor": "#e5f2ea",
+          "secondaryLinkColor": "#e4b36f",
+          "secondaryAccentColor": "#d7a85f",
+          "successColor": "#4ade80",
+          "onSuccessColor": "#062312",
+          "errorColor": "#fb7185",
           "onErrorColor": "#2d0808",
-          "warningColor": "#f0bb59",
+          "warningColor": "#fbbf24",
           "onWarningColor": "#2d1a00",
-          "infoColor": "#7cb5ff",
-          "onInfoColor": "#05162d"
+          "infoColor": "#93c5fd",
+          "onInfoColor": "#06162d"
         }
       }
     },
@@ -65,31 +65,41 @@
       "identifier": "erosbarajascom",
       "name": "Eros Barajas",
       "version": "1.0.0",
-      "description": "Landing page draft for Eros Barajas, Conectando con el Ser."
+      "description": "Sitio público de Eros Barajas, Conectando con el Ser."
     },
     "seo": {
       "siteName": "Eros Barajas",
-      "title": "Eros Barajas | Conectando con el Ser",
-      "description": "Acompañamiento integral para sanar bloqueos emocionales y recuperar claridad desde una mirada terapéutica y energética.",
+      "title": "Eros Barajas | Sanación holística en CDMX",
+      "description": "Sesiones de sanación holística, Método Yuen, Access Bars, biomagnetismo y masaje terapéutico en CDMX y a distancia.",
       "canonicalOrigin": "https://erosbarajas.com",
-      "defaultImage": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/branding/logo.png",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait.jpg",
       "openGraph": {
         "type": "website",
-        "site_name": "Eros Barajas"
+        "site_name": "Eros Barajas",
+        "image": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait.jpg",
+        "image:type": "image/jpeg",
+        "image:alt": "Retrato de Eros Barajas para sesiones de sanación holística"
       },
       "twitter": {
-        "card": "summary_large_image"
+        "card": "summary_large_image",
+        "image": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait.jpg",
+        "image:alt": "Retrato de Eros Barajas para sesiones de sanación holística"
       },
       "keywords": [
         "Eros Barajas",
-        "sanacion holistica",
-        "terapia energetica",
-        "metodo yuen",
+        "sanación holística",
+        "terapia energética",
+        "Método Yuen",
+        "Access Bars",
+        "biomagnetismo",
+        "masaje terapéutico",
         "bienestar integral",
         "CDMX",
-        "LATAM"
+        "Latinoamérica"
       ],
-      "robots": "index,follow,max-image-preview:large"
+      "robots": "index,follow,max-image-preview:large",
+      "enforceCanonicalHost": true,
+      "forceHttps": true
     },
     "i18n": {
       "defaultLanguage": "es",
@@ -99,6 +109,11 @@
           "label": "ES"
         }
       ]
+    },
+    "icons": {
+      "favicon": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo-256.png",
+      "appleTouchIcon": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo-256.png",
+      "themeColor": "#0f766e"
     }
   },
   "defaults": {
@@ -171,23 +186,82 @@
       "debugMode": false
     },
     "analytics": {
-      "enabled": false,
+      "enabled": true,
       "consentUI": "none",
       "consentSnoozeSeconds": 30,
-      "track": [],
+      "track": [
+        "language",
+        "platform",
+        "screenWidth",
+        "screenHeight",
+        "timezone"
+      ],
       "events": {
         "page_view": "page_view",
         "nav_click": "nav_click",
+        "header_whatsapp_click": "header_whatsapp_click",
+        "hero_primary_click": "hero_primary_click",
+        "hero_secondary_click": "hero_secondary_click",
+        "about_primary_click": "about_primary_click",
+        "final_cta_primary_click": "final_cta_primary_click",
+        "final_cta_secondary_click": "final_cta_secondary_click",
         "cta_click": "cta_click",
         "whatsapp_click": "whatsapp_click",
         "faq_open": "faq_open",
-        "section_view": "section_view"
+        "faq_cta_click": "faq_cta_click",
+        "section_view": "section_view",
+        "scroll_depth": "scroll_depth"
       },
       "categories": {
         "navigation": "navigation",
+        "hero": "hero",
         "cta": "cta",
         "faq": "faq",
         "engagement": "engagement"
+      },
+      "quickStats": {
+        "pageView": {
+          "event": "page_view",
+          "path": "metrics.pageViews",
+          "by": 1
+        },
+        "events": [
+          {
+            "name": "header_whatsapp_click",
+            "path": "metrics.whatsappClicks",
+            "by": 1
+          },
+          {
+            "name": "hero_primary_click",
+            "path": "metrics.whatsappClicks",
+            "by": 1
+          },
+          {
+            "name": "about_primary_click",
+            "path": "metrics.whatsappClicks",
+            "by": 1
+          },
+          {
+            "name": "final_cta_primary_click",
+            "path": "metrics.whatsappClicks",
+            "by": 1
+          },
+          {
+            "name": "hero_secondary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "final_cta_secondary_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          },
+          {
+            "name": "faq_cta_click",
+            "path": "metrics.ctaClicks",
+            "by": 1
+          }
+        ]
       }
     }
   },

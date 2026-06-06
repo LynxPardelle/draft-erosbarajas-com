@@ -5,41 +5,41 @@
   "lang": "es",
   "dictionary": {
     "hero": {
-      "eyebrow": "Sanación integral de cuerpo, mente y espíritu",
-      "title": "Recupera claridad, equilibrio y dirección desde un acompañamiento hecho a tu medida.",
-      "lead": "Eros Barajas integra herramientas terapéuticas y energéticas para trabajar bloqueos emocionales, estrés acumulado y procesos personales que hoy te están quitando paz.",
-      "support": "Si llevas tiempo buscando una salida real, este espacio está pensado para ayudarte a volver a ti con más calma, consciencia y acción.",
-      "primaryLabel": "Quiero hablar por WhatsApp",
-      "secondaryLabel": "Conoce el enfoque",
-      "caption": "Atención presencial en Ciudad de México y acompañamiento a distancia para personas que necesitan apoyo real, no fórmulas genéricas."
+      "eyebrow": "Sanación holística en CDMX y a distancia",
+      "title": "Eros Barajas: sanación holística para recuperar claridad y equilibrio.",
+      "lead": "Acompañamiento personalizado con Método Yuen, Access Bars, biomagnetismo y masaje terapéutico para trabajar estrés, bloqueos emocionales y procesos de transformación personal.",
+      "support": "Un espacio serio, cálido y no invasivo para volver a tu centro sin promesas mágicas ni fórmulas genéricas.",
+      "primaryLabel": "Hablar por WhatsApp",
+      "secondaryLabel": "Conocer el enfoque",
+      "caption": "Atención presencial en Ciudad de México y acompañamiento a distancia para personas que buscan un proceso real de bienestar integral."
     },
     "benefits": {
       "eyebrow": "Cuando algo interno pide atención",
-      "title": "No siempre necesitas más información. A veces necesitas un proceso que te ayude a ordenar lo que hoy te pesa.",
-      "subtitle": "Este acompañamiento está pensado para personas que sienten desgaste emocional, tensión en sus relaciones, confusión interior o una sensación constante de desconexión consigo mismas."
+      "title": "Un proceso para ordenar lo que pesa, bajar el ruido y recuperar dirección.",
+      "subtitle": "El acompañamiento está pensado para personas con desgaste emocional, tensión corporal, búsqueda espiritual o sensación de desconexión consigo mismas."
     },
     "methods": {
-      "eyebrow": "Herramientas y métodos",
-      "title": "Cada sesión se adapta a tu caso. No se trata de aplicar todo, sino lo que puede ayudarte hoy.",
-      "subtitle": "El trabajo integra técnicas terapéuticas y energéticas que permiten abordar lo emocional, mental y corporal desde una visión más completa.",
-      "note": "Si no sabes qué método necesitas, no pasa nada. La conversación inicial sirve precisamente para entender tu caso y proponerte el mejor camino."
+      "eyebrow": "Herramientas integradas",
+      "title": "Cada sesión se adapta a tu caso: cuerpo, mente, emoción y energía trabajando en conjunto.",
+      "subtitle": "No se trata de aplicar todas las técnicas, sino de elegir las que mejor responden a tu momento, tu historia y tu objetivo.",
+      "note": "Si no sabes qué método necesitas, la conversación inicial sirve para entender tu caso y proponerte un camino claro antes de agendar."
     },
     "about": {
       "eyebrow": "Sobre Eros",
-      "title": "Una presencia cercana, profesional y enfocada en procesos de transformación con sentido.",
-      "p1": "Eros Barajas acompaña a personas que están atravesando momentos de desgaste, búsqueda o cambio. Su enfoque no busca impresionar con términos complejos, sino ayudarte a identificar qué está moviéndose en tu vida y trabajar eso con claridad.",
-      "p2": "Integra herramientas como Método Yuen, Access Bars, biomagnetismo, masaje terapéutico y otras miradas complementarias para construir sesiones profundamente personalizadas.",
-      "p3": "El objetivo no es que dependas del proceso, sino que recuperes presencia, dirección y una relación más consciente contigo mismo.",
-      "ctaLabel": "Agenda una conversación inicial"
+      "title": "Acompañamiento cercano, profesional y enfocado en transformación con sentido.",
+      "p1": "Eros Barajas acompaña a personas que atraviesan momentos de desgaste, búsqueda o cambio. Su enfoque aterriza lo energético en una experiencia clara, humana y personalizada.",
+      "p2": "Integra Método Yuen, Access Bars, biomagnetismo, masaje terapéutico y otras herramientas complementarias para construir sesiones ajustadas a cada proceso.",
+      "p3": "La intención no es crear dependencia, sino ayudarte a recuperar presencia, dirección y una relación más consciente contigo mismo.",
+      "ctaLabel": "Agendar conversación inicial"
     },
     "faqSection": {
       "title": "Preguntas frecuentes",
-      "subtitle": "Si es tu primera vez acercándote a este tipo de acompañamiento, aquí tienes respuestas claras para ayudarte a decidir con calma.",
-      "footerButtonLabel": "Quiero orientación por WhatsApp"
+      "subtitle": "Respuestas claras para decidir con calma si este acompañamiento encaja con lo que estás viviendo.",
+      "footerButtonLabel": "Pedir orientación por WhatsApp"
     },
     "finalCta": {
-      "title": "Si sientes que ya es momento de atender lo que vienes cargando, da el siguiente paso con una conversación directa.",
-      "subtitle": "Escríbeme por WhatsApp y cuéntame brevemente qué estás viviendo. A partir de ahí podemos revisar cómo ayudarte desde un proceso serio, cálido y personalizado.",
+      "title": "Da el siguiente paso con una conversación directa y sin presión.",
+      "subtitle": "Escríbeme por WhatsApp y cuéntame brevemente qué estás viviendo. Desde ahí revisamos si una sesión, clase introductoria o proceso personalizado tiene sentido para ti.",
       "primaryLabel": "Escribir por WhatsApp",
       "secondaryLabel": "Ver preguntas frecuentes"
     },
@@ -57,9 +57,9 @@
     },
     "ui": {
       "accessibility": {
-        "primaryNavigation": "Navegacion principal",
-        "mobileMenuAriaLabel": "Menu de navegacion",
-        "openMenu": "Abrir menu"
+        "primaryNavigation": "Navegación principal",
+        "mobileMenuAriaLabel": "Menú de navegación",
+        "openMenu": "Abrir menú"
       },
       "contact": {
         "whatsappMessage": "Hola Eros, vi tu landing page y quiero información sobre una sesión personalizada.",
@@ -71,7 +71,7 @@
       {
         "id": "faq-1",
         "title": "¿Cómo sé si este acompañamiento es para mí?",
-        "content": "Si estás viviendo estrés constante, bloqueo emocional, relaciones tensas, sensación de desconexión o una búsqueda interna que no logras aterrizar, probablemente este espacio puede ayudarte. La primera conversación sirve para entender tu situación y ver si hay buen encuadre para trabajar juntos."
+        "content": "Si estás viviendo estrés constante, bloqueo emocional, relaciones tensas, sensación de desconexión o una búsqueda interna que no logras aterrizar, la primera conversación puede ayudarte a revisar si hay buen encuadre para trabajar juntos."
       },
       {
         "id": "faq-2",
@@ -86,12 +86,17 @@
       {
         "id": "faq-4",
         "title": "¿Qué puedo esperar de una primera sesión?",
-        "content": "Puedes esperar escucha, claridad y un proceso personalizado. La intención no es darte respuestas genéricas, sino identificar contigo lo que hoy está generando más ruido y comenzar a trabajar desde ahí con una estrategia adecuada para tu caso."
+        "content": "Puedes esperar escucha, claridad y un proceso personalizado. La intención no es darte respuestas genéricas, sino identificar contigo lo que hoy genera más ruido y comenzar a trabajarlo con una estrategia adecuada para tu caso."
       },
       {
         "id": "faq-5",
         "title": "¿También manejas clases introductorias?",
-        "content": "Sí, las clases introductorias forman parte de la propuesta, pero el foco principal de esta página son las sesiones personalizadas. Si te interesa empezar por una clase, puedes mencionarlo directamente en tu mensaje de WhatsApp."
+        "content": "Sí. Las clases introductorias forman parte de la propuesta y pueden ser una buena entrada si quieres conocer las herramientas antes de iniciar un proceso personalizado."
+      },
+      {
+        "id": "faq-6",
+        "title": "¿Este servicio sustituye atención médica o psicológica?",
+        "content": "No. Es un acompañamiento complementario de bienestar y desarrollo personal. No sustituye diagnóstico, tratamiento médico, psicoterapia ni atención de urgencia."
       }
     ]
   }

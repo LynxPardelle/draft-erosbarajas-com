@@ -4,7 +4,7 @@
   "domain": "erosbarajas.com",
   "combos": {
     "sectionBase": [
-      "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-p-2rem ank-p-md-3rem"
+      "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-py-56px ank-py-md-72px"
     ],
     "sectionContent": [
       "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-20px"
@@ -31,10 +31,10 @@
       "ank-display-flex ank-justifyContent-center ank-justifyContent-md-start"
     ],
     "portraitCardWarm": [
-      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-28px ank-bg-secondaryBgColor ank-padding-24px ank-padding-md-36px ank-boxShadow-0__18px__48px__bgColor__OPA__0_18 ank-width-100per ank-maxWidth-460px ank-display-flex ank-flexDirection-column ank-gap-16px"
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-secondaryBgColor ank-padding-16px ank-padding-md-22px ank-boxShadow-0__14px__34px__bgColor__OPA__0_12 ank-width-100per ank-maxWidth-440px ank-display-flex ank-flexDirection-column ank-gap-14px"
     ],
     "portraitCardOutline": [
-      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-26px ank-bg-bgColor ank-padding-22px ank-padding-md-28px ank-boxShadow-0__18px__40px__bgColor__OPA__0_12 ank-width-100per ank-maxWidth-440px ank-display-flex ank-flexDirection-column ank-gap-14px"
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-padding-16px ank-padding-md-20px ank-boxShadow-0__12px__28px__bgColor__OPA__0_1 ank-width-100per ank-maxWidth-420px ank-display-flex ank-flexDirection-column ank-gap-14px"
     ],
     "cardGrid": [
       "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-16px ank-gap-md-20px"
@@ -46,43 +46,43 @@
       "ank-gap-24px ank-gap-md-28px"
     ],
     "sectionEyebrow": [
-      "ank-display-flex ank-width-fitContent ank-alignItems-center ank-gap-8px ank-paddingInline-14px ank-paddingBlock-8px ank-borderRadius-99rem ank-bg-secondaryBgColor ank-color-secondaryLinkColor ank-fontSize-0_84rem ank-fontWeight-800 ank-letterSpacing-0_06rem ank-textTransform-uppercase"
+      "ank-display-block ank-color-secondaryLinkColor ank-fontSize-0_78rem ank-fontWeight-800 ank-textTransform-uppercase"
     ],
     "sectionTitle": [
-      "ank-fontSize-2_1rem ank-fontSize-md-3_25rem ank-fontWeight-800 ank-lineHeight-1_08 ank-letterSpacing-N0_03rem ank-color-titleColor ank-maxWidth-75per"
+      "ank-fontSize-2_05rem ank-fontSize-md-3_05rem ank-fontWeight-800 ank-lineHeight-1_08 ank-color-titleColor ank-maxWidth-62rem"
     ],
     "sectionSubtitle": [
       "ank-fontSize-1rem ank-fontSize-md-1_08rem ank-lineHeight-1_72 ank-color-secondaryTitleColor ank-maxWidth-56rem ank-opacity-0_92"
     ],
     "primaryAction": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-14px ank-bg-accentColor ank-color-bgColor ank-fontWeight-800 ank-border-1px__solid__accentColor ank-textDecoration-none ank-cursor-pointer ank-boxShadow-0__14px__28px__accentColor__OPA__0_24 ank-transformHover-translateYSDMIN1pxED ank-transition-all"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-8px ank-bg-accentColor ank-color-bgColor ank-fontWeight-800 ank-border-1px__solid__accentColor ank-textDecoration-none ank-cursor-pointer ank-boxShadow-0__12px__26px__accentColor__OPA__0_22 ank-transformHover-translateYSDMIN1pxED ank-transition-all"
     ],
     "secondaryAction": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-14px ank-border-1px__solid__secondaryAccentColor ank-bg-transparent ank-color-titleColor ank-fontWeight-800 ank-textDecoration-none ank-cursor-pointer ank-bgHover-secondaryBgColor ank-transition-all"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-20px ank-paddingBlock-12px ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-transparent ank-color-titleColor ank-fontWeight-800 ank-textDecoration-none ank-cursor-pointer ank-bgHover-secondaryBgColor ank-transition-all"
     ],
     "outlinePanel": [
-      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-26px ank-bg-bgColor ank-padding-22px ank-padding-md-28px ank-boxShadow-0__18px__40px__bgColor__OPA__0_12"
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-padding-20px ank-padding-md-24px ank-boxShadow-0__12px__28px__bgColor__OPA__0_1"
     ],
     "softPanel": [
-      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-24px ank-bg-secondaryBgColor ank-padding-22px ank-padding-md-24px"
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-secondaryBgColor ank-padding-20px ank-padding-md-22px"
     ],
     "warmPanel": [
-      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-28px ank-bg-secondaryBgColor ank-padding-24px ank-padding-md-36px ank-boxShadow-0__18px__48px__bgColor__OPA__0_18"
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-secondaryBgColor ank-padding-24px ank-padding-md-36px ank-boxShadow-0__14px__34px__bgColor__OPA__0_12"
     ],
     "chipText": [
-      "ank-display-flex ank-width-fitContent ank-alignItems-center ank-paddingInline-14px ank-paddingBlock-10px ank-borderRadius-99rem ank-bg-bgColor ank-border-1px__solid__secondaryAccentColor ank-color-titleColor ank-fontWeight-700 ank-fontSize-0_94rem"
+      "ank-display-flex ank-width-fitContent ank-alignItems-center ank-paddingBlock-6px ank-borderBottom-1px ank-borderColor-secondaryAccentColor ank-color-titleColor ank-fontWeight-700 ank-fontSize-0_94rem"
     ],
     "heroCaption": [
       "ank-fontSize-0_95rem ank-lineHeight-1_6 ank-color-secondaryTitleColor ank-opacity-0_86"
     ],
     "methodCard": [
-      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-24px ank-bg-bgColor ank-padding-22px ank-padding-md-24px ank-boxShadow-0__16px__34px__bgColor__OPA__0_1"
+      "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-8px ank-bg-bgColor ank-padding-20px ank-padding-md-22px ank-boxShadow-0__10px__24px__bgColor__OPA__0_08"
     ],
     "accContainer": [
       "ank-display-flex ank-flexDirection-column ank-gap-12px"
     ],
     "accItemContainer": [
-      "ank-borderRadius-20px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor"
+      "ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor"
     ],
     "accItemExpandedContainer": [
       "ank-boxShadow-0__14px__30px__bgColor__OPA__0_16"
@@ -106,7 +106,7 @@
       "ank-display-flex ank-flexWrap-wrap ank-gap-10px ank-gap-md-12px ank-alignItems-center"
     ],
     "footerSocialLink": [
-      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-14px ank-paddingBlock-10px ank-borderRadius-99rem ank-border-1px__solid__secondaryAccentColor ank-bg-secondaryBgColor ank-color-titleColor ank-fontWeight-700 ank-textDecoration-none ank-bgHover-bgColor ank-transition-all"
+      "ank-display-flex ank-alignItems-center ank-justifyContent-center ank-gap-8px ank-paddingInline-14px ank-paddingBlock-10px ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-secondaryBgColor ank-color-titleColor ank-fontWeight-700 ank-textDecoration-none ank-bgHover-bgColor ank-transition-all"
     ]
   }
 }

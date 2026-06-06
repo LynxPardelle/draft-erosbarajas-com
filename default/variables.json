@@ -55,9 +55,9 @@
       }
     ],
     "heroAssets": {
-      "logoUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo.png",
+      "logoUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo-256.png",
       "logoAlt": "Logotipo de Eros Barajas Conectando con el Ser",
-      "heroPortraitUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait.jpg",
+      "heroPortraitUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait-lcp.jpg",
       "heroPortraitAlt": "Eros Barajas con saco gris y brazos cruzados",
       "aboutPortraitUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/about-portrait.jpg",
       "aboutPortraitAlt": "Eros Barajas con camisa azul y brazos cruzados"
@@ -66,7 +66,7 @@
       {
         "id": "instagram",
         "url": "https://www.instagram.com/erosbarajas.conectando/",
-        "label": "⌾ Instagram",
+        "label": "Instagram",
         "ariaLabelKey": "footer.social.instagram.ariaLabel",
         "target": "_blank",
         "rel": "noopener noreferrer"
@@ -74,7 +74,7 @@
       {
         "id": "facebook",
         "url": "https://www.facebook.com/erosbarajasYuen",
-        "label": "ⓕ Facebook",
+        "label": "Facebook",
         "ariaLabelKey": "footer.social.facebook.ariaLabel",
         "target": "_blank",
         "rel": "noopener noreferrer"
@@ -84,10 +84,10 @@
       "loadingCurtain": {
         "title": "Eros Barajas",
         "subtitle": "Preparando un espacio con calma",
-        "logoUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo.png",
-        "background": "#f8efe4",
-        "foreground": "#1f130d",
-        "accent": "#f97316",
+        "logoUrl": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/logos/eros-barajas-logo-256.png",
+        "background": "#f8faf7",
+        "foreground": "#111c18",
+        "accent": "#0f766e",
         "exitDurationMs": 420
       },
       "contact": {

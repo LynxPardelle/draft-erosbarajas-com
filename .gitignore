@@ -45,6 +45,7 @@ google-credentials*.json
 *.bak
 
 # PII/source material that must be reviewed before publishing
+*_just_for_example*
 *.pdf
 *.doc
 *.docx

@@ -36,7 +36,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-24px ank-gap-md-36px ank-alignItems-center",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-28px ank-gap-md-44px ank-alignItems-center",
         "components": [
           "heroCopyColumn",
           "heroVisualColumn"
@@ -48,7 +48,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-maxWidth-40rem",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-maxWidth-44rem",
         "components": [
           "heroBadge",
           "heroTitle",
@@ -80,13 +80,13 @@
         "tag": "image",
         "src": "",
         "alt": "",
-        "classes": "ank-width-50per ank-height-50per ank-m-0__auto ank-display-block",
-        "width": 1080,
-        "height": 1080,
+        "classes": "ank-width-112px ank-maxWidth-34vw ank-height-auto ank-display-block",
+        "width": 112,
+        "height": 112,
         "decoding": "async",
         "loading": "eager",
         "fetchPriority": "high",
-        "sizes": "(max-width: 768px) 96px, 120px"
+        "sizes": "112px"
       }
     },
     {
@@ -106,7 +106,7 @@
       "config": {
         "tag": "h1",
         "text": "",
-        "classes": "sectionTitle ank-maxWidth-14ch"
+        "classes": "sectionTitle ank-maxWidth-16ch"
       }
     },
     {
@@ -126,7 +126,7 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "heroCaption ank-maxWidth-75per"
+        "classes": "heroCaption ank-maxWidth-44rem"
       }
     },
     {
@@ -134,7 +134,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-16px ank-paddingTop-10px",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-paddingTop-8px",
         "components": [
           "heroChipOne",
           "heroChipTwo",
@@ -219,7 +219,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-28px ank-bg-secondaryBgColor ank-padding-24px ank-padding-md-36px ank-boxShadow-0__18px__48px__bgColor__OPA__0_18 ank-width-100per ank-maxWidth-460px ank-display-flex ank-flexDirection-column ank-gap-16px",
+        "classes": "portraitCardWarm",
         "components": [
           "heroPortrait",
           "heroPortraitCaption"
@@ -235,9 +235,9 @@
         "tag": "image",
         "src": "",
         "alt": "",
-        "classes": "ank-width-100per ank-display-block ank-borderRadius-24px ank-bg-bgColor",
-        "width": 1080,
-        "height": 1920,
+        "classes": "ank-width-100per ank-display-block ank-borderRadius-8px ank-bg-bgColor",
+        "width": 720,
+        "height": 1280,
         "decoding": "async",
         "loading": "eager",
         "fetchPriority": "high",
@@ -297,7 +297,7 @@
       "config": {
         "tag": "h2",
         "text": "",
-        "classes": "sectionTitle ank-maxWidth-75per"
+        "classes": "sectionTitle ank-maxWidth-58rem"
       }
     },
     {
@@ -337,14 +337,14 @@
           "Un espacio para bajar el ruido interno.",
           "Acompañamiento que va al origen, no solo al síntoma."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -361,14 +361,14 @@
           "Trabajar carga emocional acumulada.",
           "Recuperar una sensación más amable de presencia."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -385,14 +385,14 @@
           "Ordenar lo emocional, mental y corporal.",
           "Volver a sentir dirección interna."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -409,14 +409,14 @@
           "Acompañamiento cálido y profesional.",
           "Un camino con más sentido y menos ruido."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-secondaryLinkColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-accentColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "softPanel ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -464,7 +464,7 @@
       "config": {
         "tag": "h2",
         "text": "",
-        "classes": "sectionTitle ank-maxWidth-75per"
+        "classes": "sectionTitle ank-maxWidth-58rem"
       }
     },
     {
@@ -506,14 +506,14 @@
           "Se integra bien con otros procesos.",
           "Aporta ligereza y enfoque."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -530,14 +530,14 @@
           "Aporta relajación profunda.",
           "Favorece una sensación de mayor espacio interior."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -554,14 +554,14 @@
           "Ayuda a mirar el cuerpo como parte del proceso.",
           "Puede integrarse de manera personalizada."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -578,14 +578,14 @@
           "Apoya descanso y regulación.",
           "Ayuda a sentir el cuerpo más disponible."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -602,14 +602,14 @@
           "Más claridad frente a cambios difíciles.",
           "Contención con dirección."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -626,14 +626,14 @@
           "Ajuste real al momento que estás viviendo.",
           "Mayor coherencia entre cuerpo, mente y emoción."
         ],
-        "featureIconContainerClasses": "ank-mb-1rem ank-display-flex ank-justifyContent-center",
-        "featureIconClasses": "ank-fs-2rem ank-width-2rem ank-height-2rem ank-color-accentColor",
-        "featureTitleClasses": "ank-fs-1_2rem ank-fontWeight-800 ank-mb-0_75rem ank-color-titleColor",
-        "featureDescriptionClasses": "ank-fs-1rem ank-color-secondaryTextColor ank-mb-1rem ank-lineHeight-1_65",
+        "featureIconContainerClasses": "ank-mb-0_75rem ank-display-flex ank-justifyContent-start",
+        "featureIconClasses": "ank-fs-1_65rem ank-width-1_75rem ank-height-1_75rem ank-color-accentColor",
+        "featureTitleClasses": "ank-fs-1_08rem ank-fontWeight-800 ank-mb-0_65rem ank-color-titleColor ank-lineHeight-1_25",
+        "featureDescriptionClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-mb-0_9rem ank-lineHeight-1_62",
         "benefitsListClasses": "ank-listStyle-none ank-p-0 ank-m-0 ank-display-flex ank-flexDirection-column ank-gap-0_5rem",
         "benefitItemClasses": "ank-display-flex ank-alignItems-start ank-gap-0_5rem",
         "benefitIconClasses": "ank-fs-1rem ank-width-1rem ank-height-1rem ank-color-secondaryLinkColor ank-mt-0_125rem ank-flexShrink-0",
-        "benefitTextClasses": "ank-fs-0_98rem ank-color-secondaryTextColor ank-lineHeight-1_6",
+        "benefitTextClasses": "ank-fs-0_95rem ank-color-secondaryTextColor ank-lineHeight-1_55",
         "classes": "methodCard ank-height-100per ank-display-flex ank-flexDirection-column"
       }
     },
@@ -664,7 +664,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-24px ank-gap-md-36px ank-alignItems-center",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-28px ank-gap-md-44px ank-alignItems-center",
         "components": [
           "aboutVisualColumn",
           "aboutCopyColumn"
@@ -687,7 +687,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-border-1px__solid__secondaryAccentColor ank-borderRadius-26px ank-bg-bgColor ank-padding-22px ank-padding-md-28px ank-boxShadow-0__18px__40px__bgColor__OPA__0_12 ank-width-100per ank-maxWidth-440px ank-display-flex ank-flexDirection-column ank-gap-14px",
+        "classes": "portraitCardOutline",
         "components": [
           "aboutPortrait",
           "aboutPortraitNote"
@@ -703,7 +703,7 @@
         "tag": "image",
         "src": "",
         "alt": "",
-        "classes": "ank-width-100per ank-display-block ank-borderRadius-22px ank-bg-secondaryBgColor",
+        "classes": "ank-width-100per ank-display-block ank-borderRadius-8px ank-bg-secondaryBgColor",
         "width": 1080,
         "height": 1920,
         "decoding": "async",
@@ -717,7 +717,7 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Procesos centrados en personas que buscan una transformación real y sostenible.",
+        "text": "Procesos centrados en personas que buscan transformación real, claridad y acompañamiento responsable.",
         "classes": "heroCaption"
       }
     },
@@ -755,7 +755,7 @@
       "config": {
         "tag": "h2",
         "text": "",
-        "classes": "sectionTitle ank-maxWidth-75per"
+        "classes": "sectionTitle ank-maxWidth-58rem"
       }
     },
     {
@@ -882,7 +882,7 @@
       "config": {
         "tag": "h2",
         "text": "",
-        "classes": "sectionTitle ank-maxWidth-15ch"
+        "classes": "sectionTitle ank-maxWidth-58rem"
       }
     },
     {
@@ -892,7 +892,7 @@
       "config": {
         "tag": "p",
         "text": "",
-        "classes": "sectionSubtitle ank-maxWidth-75per"
+        "classes": "sectionSubtitle ank-maxWidth-56rem"
       }
     },
     {
@@ -908,8 +908,8 @@
           "path": "faq"
         },
         "containerClasses": "ank-width-100per ank-display-flex ank-flexDirection-column ank-gap-12px",
-        "defaultItemContainerClasses": "ank-width-100per ank-borderRadius-20px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor ank-overflow-hidden",
-        "defaultItemContainerIsExpandedClasses": "ank-boxShadow-0__14px__30px__bgColor__OPA__0_16",
+        "defaultItemContainerClasses": "ank-width-100per ank-borderRadius-8px ank-border-1px__solid__secondaryAccentColor ank-bg-bgColor ank-overflow-hidden",
+        "defaultItemContainerIsExpandedClasses": "ank-boxShadow-0__10px__24px__bgColor__OPA__0_1",
         "defaultItemContainerIsNotExpandedClasses": "",
         "defaultItemButtonConfig": {
           "id": "faqToggleButton",
@@ -964,7 +964,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "warmPanel ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-md-24px ank-alignItems-start",
+        "classes": "warmPanel ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-gap-18px ank-gap-md-22px ank-alignItems-start",
         "components": [
           "finalCtaTitle",
           "finalCtaSubtitle",
@@ -998,8 +998,8 @@
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "Atención presencial en Ciudad de México y acompañamiento a distancia para Latinoamérica.",
-        "classes": "heroCaption"
+        "text": "Bienestar complementario: no sustituye atención médica, psicoterapia ni atención de urgencia.",
+        "classes": "heroCaption ank-maxWidth-52rem"
       }
     },
     {
@@ -1007,7 +1007,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-paddingTop-6px",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-12px ank-paddingTop-10px",
         "components": [
           "finalCtaPrimaryButton",
           "finalCtaSecondaryButton"
@@ -1017,7 +1017,7 @@
     {
       "id": "finalCtaPrimaryButton",
       "type": "button",
-      "eventInstructions": "openFinalCtaWhatsApp:event.meta_title,primary",
+      "eventInstructions": "openWhatsApp:event.meta_title,final_primary,final",
       "meta_title": "final_cta_primary_click",
       "valueInstructions": "set:config.label,i18n,finalCta.primaryLabel",
       "config": {

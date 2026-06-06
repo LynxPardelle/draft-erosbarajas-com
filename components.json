@@ -46,7 +46,7 @@
       "config": {
         "id": "brand-link",
         "href": "#home",
-        "text": "Eros Barajas | Conectando con el Ser",
+        "text": "Eros Barajas",
         "classes": "ank-color-titleColor ank-fontSize-1rem ank-fontSize-md-1_05rem ank-fontWeight-700 ank-textDecoration-none ank-letterSpacing-0_01rem"
       }
     },
@@ -197,7 +197,7 @@
       "config": {
         "iconName": "menu",
         "ariaLabel": "",
-        "classes": "ank-color-titleColor ank-fontSize-1_5rem"
+        "classes": "ank-display-block ank-width-24px ank-height-24px ank-color-titleColor"
       }
     },
     {
@@ -228,7 +228,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "outlinePanel ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-alignItems-start ank-mx-auto",
+        "classes": "ank-width-100per ank-maxWidth-1180px ank-display-flex ank-flexDirection-column ank-alignItems-start ank-gap-12px ank-mx-auto",
         "components": [
           "footerBrand",
           "footerCopy",

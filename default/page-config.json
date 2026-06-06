@@ -10,26 +10,28 @@
   ],
   "modalRootIds": [],
   "metadata": {
-    "status": "draft_v1",
+    "status": "production_ready_draft",
     "source": "manual authoring",
-    "versionTag": "v0.1.0"
+    "versionTag": "v0.2.0"
   },
   "seo": {
-    "title": "Eros Barajas | Sanación integral de cuerpo, mente y espíritu",
-    "description": "Agenda por WhatsApp una sesión personalizada con Eros Barajas y descubre un acompañamiento integral para trabajar bloqueos emocionales, energía y claridad interior.",
+    "title": "Eros Barajas | Sanación holística en CDMX",
+    "description": "Agenda por WhatsApp una sesión con Eros Barajas para trabajar claridad, equilibrio energético y bienestar integral en CDMX o a distancia.",
     "canonical": "https://erosbarajas.com/",
     "openGraph": {
-      "title": "Eros Barajas | Conectando con el Ser",
-      "description": "Acompañamiento terapéutico y energético para personas que necesitan recuperar equilibrio, dirección y bienestar real.",
+      "title": "Eros Barajas | Sanación holística en CDMX",
+      "description": "Acompañamiento terapéutico y energético para personas que buscan equilibrio, claridad y bienestar integral.",
       "image": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait.jpg",
       "url": "https://erosbarajas.com/",
-      "type": "website"
+      "type": "website",
+      "image:alt": "Retrato de Eros Barajas para sesiones de sanación holística"
     },
     "twitter": {
-      "title": "Eros Barajas | Conectando con el Ser",
+      "title": "Eros Barajas | Sanación holística en CDMX",
       "description": "Agenda por WhatsApp y conoce un proceso terapéutico y energético hecho a tu medida.",
       "image": "https://assets.zoolandingpage.com.mx/erosbarajas.com/default/hero-images/hero-portrait.jpg",
-      "card": "summary_large_image"
+      "card": "summary_large_image",
+      "image:alt": "Retrato de Eros Barajas para sesiones de sanación holística"
     }
   },
   "structuredData": {
@@ -47,9 +49,8 @@
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Eros Barajas | Conectando con el Ser",
-        "description": "Sesiones personalizadas y acompañamiento integral para trabajar cuerpo, mente y espíritu.",
+        "description": "Sesiones personalizadas y acompañamiento integral para trabajar cuerpo, mente y espíritu desde una mirada complementaria de bienestar.",
         "url": "https://erosbarajas.com/",
-        "telephone": "+52 55 6257 9516",
         "areaServed": [
           "Ciudad de México",
           "Latinoamérica"
@@ -59,7 +60,8 @@
           "Acompañamiento energético",
           "Método Yuen",
           "Access Bars",
-          "Biomagnetismo"
+          "Biomagnetismo",
+          "Masaje terapéutico"
         ]
       }
     ]
